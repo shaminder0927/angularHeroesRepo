@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+  color:crimson;
+  font-family:'Comic Sans MS'
+}
+body {
+  margin: 2em;
+}
+
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}

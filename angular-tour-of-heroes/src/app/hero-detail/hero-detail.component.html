@@ -1,0 +1,22 @@
+
+<div *ngIf="hero">
+  <h3 style="color:chocolate">
+    id - {{ hero.id }} <br />
+    power - {{ hero.power | uppercase}} <br />
+    name - {{ hero.name }} <br />
+  </h3>
+  <label>
+    name:
+    <input [(ngModel)]="hero.name" placeholder="enter name" />
+  </label>
+  <label>
+    power:
+    <input [(ngModel)]="hero.power" placeholder="enter power" />
+  </label>
+  <br />
+  <br />
+</div>
+
+<button (click)="goBack()">Go Back</button>&nbsp;
+<button (click)="save()">Save</button>
+
